@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-06 07:39+0000\n"
-"PO-Revision-Date: 2024-12-06 08:54+0000\n"
+"PO-Revision-Date: 2024-12-06 09:18+0000\n"
 "Last-Translator: Nguyen Ngoc Tam <nguyenngoctam0332003@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/"
 "odoo_weblate_ngoctam/odoo_weblate_ngoctam/vi/>\n"
@@ -818,27 +818,27 @@ msgstr ""
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_form
 msgid "Refuse"
-msgstr ""
+msgstr "Từ chối"
 
 #. module: estate
 #: model:ir.model.fields.selection,name:estate.selection__estate_property_offer__status__refused
 msgid "Refused"
-msgstr ""
+msgstr "Đã từ chối"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_report_wizard_view
 msgid "Report Options"
-msgstr ""
+msgstr "Tùy chọn báo cáo"
 
 #. module: estate
 #: model:ir.ui.menu,name:estate.menu_reporting
 msgid "Reporting"
-msgstr ""
+msgstr "Báo cáo"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__activity_user_id
 msgid "Responsible User"
-msgstr ""
+msgstr "Người chịu trách nhiệm"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__message_has_sms_error
@@ -848,7 +848,7 @@ msgstr ""
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_res_users__property_ids
 msgid "Salesperson Properties"
-msgstr ""
+msgstr "Thông tin nhân viên bán hàng"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_property_search
@@ -858,44 +858,44 @@ msgstr ""
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__seller_id
 msgid "Seller"
-msgstr ""
+msgstr "Người bán hàng"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__selling_price
 msgid "Selling Price"
-msgstr ""
+msgstr "Giá bán"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_kanban
 msgid "Selling Price:"
-msgstr ""
+msgstr "Giá bán:"
 
 #. module: estate
 #: model:ir.model.fields.selection,name:estate.selection__estate_property__state__sold
 msgid "Sold"
-msgstr ""
+msgstr "Bán"
 
 #. module: estate
 #: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__south
 msgid "South"
-msgstr ""
+msgstr "Hướng Nam"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_report_wizard__start_date
 msgid "Start Date"
-msgstr ""
+msgstr "Ngày bắt đầu"
 
 #. module: estate
 #: code:addons/estate/models/estate_report_wizard.py:0
 #, python-format
 msgid "Start Date must be less than End Date"
-msgstr ""
+msgstr "Ngày bắt đầu phải nhỏ hơn ngày kết thúc"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__state
 #: model:ir.model.fields,field_description:estate.field_estate_property_offer__status
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #. module: estate
 #: code:addons/estate/models/estate_property_offer.py:0
@@ -915,34 +915,34 @@ msgstr ""
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_cancel_wizard_form
 msgid "Submit Reason"
-msgstr ""
+msgstr "Gửi"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property_tag__name
 msgid "Tag Name"
-msgstr ""
+msgstr "Tên nhãn sản phẩm"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__tag_ids
 msgid "Tags"
-msgstr ""
+msgstr "Nhãn"
 
 #. module: estate
 #: code:addons/estate/models/estate_property.py:0
 #: code:addons/estate/models/estate_property.py:0
 #, python-format
 msgid "The availability date cannot be in the past."
-msgstr ""
+msgstr "Ngày có sẵn không được nằm trong quá khứ."
 
 #. module: estate
 #: model:ir.model.constraint,message:estate.constraint_estate_property_check_expected_price
 msgid "The expected price must be positive."
-msgstr ""
+msgstr "Giá dự kiến phải lớn hơn 0."
 
 #. module: estate
 #: model:ir.model.constraint,message:estate.constraint_estate_property_offer_check_offer_price
 msgid "The offer price must be positive."
-msgstr ""
+msgstr "Giá mở bán phải là số dương."
 
 #. module: estate
 #: code:addons/estate/models/estate_property_type.py:0
@@ -951,34 +951,34 @@ msgstr ""
 msgid ""
 "The property type name \"{}\" already exists. Please choose a different "
 "name."
-msgstr ""
+msgstr "\"Tên loại bất động sản \"{}\" đã tồn tại. Vui lòng chọn tên khác.\""
 
 #. module: estate
 #: code:addons/estate/models/estate_property.py:0
 #, python-format
 msgid "The selling price cannot be lower than 90% of the expected price."
-msgstr ""
+msgstr "Giá bán không được thấp hơn 90% giá dự kiến."
 
 #. module: estate
 #: model:ir.model.constraint,message:estate.constraint_estate_property_check_selling_price
 msgid "The selling price must be positive."
-msgstr ""
+msgstr "Giá bán phải là số dương."
 
 #. module: estate
 #: model:ir.model.constraint,message:estate.constraint_estate_property_tag_tag_name_unique
 msgid "The tag name must be unique."
-msgstr ""
+msgstr "Tên thẻ phải là duy nhất."
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__name
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_form
 msgid "Title"
-msgstr ""
+msgstr "Tên"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__total_area
 msgid "Total Area"
-msgstr ""
+msgstr "Tổng diện tích"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
@@ -988,7 +988,7 @@ msgstr ""
 #. module: estate
 #: model:ir.actions.act_window,name:estate.action_estate_type
 msgid "Type"
-msgstr ""
+msgstr "Loại"
 
 #. module: estate
 #: model:ir.model.fields,help:estate.field_estate_property__activity_exception_decoration
@@ -1018,7 +1018,7 @@ msgstr ""
 #. module: estate
 #: model:ir.model,name:estate.model_res_users
 msgid "Users"
-msgstr ""
+msgstr "Người dùng"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property_offer__validity
@@ -1038,29 +1038,29 @@ msgstr ""
 #. module: estate
 #: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__west
 msgid "West"
-msgstr ""
+msgstr "Hướng Tây"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_property_search
 msgid "With Garage"
-msgstr ""
+msgstr "Có Garage"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_property_search
 msgid "With Garden"
-msgstr ""
+msgstr "Có Vườn"
 
 #. module: estate
 #: code:addons/estate/models/estate_property_offer.py:0
 #, python-format
 msgid "You cannot create an offer with a lower amount than an existing offer."
-msgstr ""
+msgstr "Bạn không thể tạo một đề nghị có số tiền thấp hơn đề nghị hiện có."
 
 #. module: estate
 #: code:addons/estate/models/estate_property.py:0
 #, python-format
 msgid "You cannot delete a property that is not in \"New\" or \"Canceled\" state."
-msgstr ""
+msgstr "Bạn không thể xóa một BDS không ở trạng thái \"Mới\" hoặc \"Đã hủy\"."
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_kanban
