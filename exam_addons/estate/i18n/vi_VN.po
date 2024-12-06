@@ -16,16 +16,6 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: estate
-#: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "Giá:"
-msgstr ""
-
-#. module: estate
-#: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "Trạng Thái:"
-msgstr ""
-
-#. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
 msgid "Bedrooms:"
 msgstr ""
@@ -46,21 +36,6 @@ msgid "Status:"
 msgstr ""
 
 #. module: estate
-#: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "Tất cả trạng thái"
-msgstr ""
-
-#. module: estate
-#: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "Trang trước"
-msgstr ""
-
-#. module: estate
-#: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "Trang sau"
-msgstr ""
-
-#. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
 msgid "Code:"
 msgstr ""
@@ -68,11 +43,6 @@ msgstr ""
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
 msgid "Description:"
-msgstr ""
-
-#. module: estate
-#: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "Mã:"
 msgstr ""
 
 #. module: estate
@@ -472,16 +442,6 @@ msgstr ""
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__garden_orientation
 msgid "Garden Orientation"
-msgstr ""
-
-#. module: estate
-#: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "Giá Tối Thiểu"
-msgstr ""
-
-#. module: estate
-#: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "Giá Tối Đa"
 msgstr ""
 
 #. module: estate
