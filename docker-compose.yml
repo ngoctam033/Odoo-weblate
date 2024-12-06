@@ -1,0 +1,57 @@
+services:
+# thêm service odoo
+  db:
+    image: postgres:13
+    container_name: odoo-db
+    # config env
+    environment:
+      - POSTGRES_DB=odoo
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+    # mapports
+    ports:
+      - "5432:5432"
+
+  db-weblate:
+    image: postgres:13
+    container_name: weblate-db
+    restart: always
+    environment:
+      POSTGRES_DB: weblate  # Đồng nhất với WEBLATE_DB_NAME
+      POSTGRES_USER: weblate_user
+      POSTGRES_PASSWORD: weblate_password
+    ports:
+      - "5433:5432"  # Đảm bảo không xung đột port
+
+  redis:
+    image: redis:6.2
+    container_name: redis
+    ports:
+      - "6379:6379"
+    restart: always
+
+  weblate:
+    image: weblate/weblate
+    container_name: weblate
+    depends_on:
+      - db-weblate
+      - redis
+    ports:
+      - "8080:8080"
+    environment:
+      - WEBLATE_EMAIL_HOST=smtp.gmail.com
+      - WEBLATE_EMAIL_PORT=587
+      - WEBLATE_EMAIL_HOST_USER=admin@example.com
+      - WEBLATE_EMAIL_HOST_PASSWORD=app_password  # Thay bằng mật khẩu ứng dụng Gmail
+      - WEBLATE_EMAIL_USE_TLS=True
+      - REDIS_HOST=redis
+      - WEBLATE_DB_HOST=db-weblate
+      - WEBLATE_DB_NAME=weblate  # Đồng nhất với POSTGRES_DB
+      - WEBLATE_DB_USER=weblate_user
+      - WEBLATE_DB_PASSWORD=weblate_password
+      - WEBLATE_SITE_DOMAIN=weblate.example.com
+      - WEBLATE_DEFAULT_FROM_EMAIL=admin@example.com
+      - POSTGRES_DB=weblate
+      - POSTGRES_USER=weblate_user
+      - POSTGRES_PASSWORD=weblate_password
+      - POSTGRES_HOST=db-weblate

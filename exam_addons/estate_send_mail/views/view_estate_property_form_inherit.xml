@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_estate_property_form_inherit" model="ir.ui.view">
+            <field name="name">estate.property.form.inherit</field>
+            <field name="model">estate.property</field>
+            <field name="inherit_id" ref="estate.estate_view_form"/>
+            <field name="arch" type="xml">
+                <!-- Thêm nút "Send Mail" vào header -->
+                <xpath expr="//header" position="inside">
+                    <button name="action_send_mail" string="Send Mail" type="object" class="oe_highlight" icon="fa-envelope" attrs="{'invisible': [('state', '!=', 'sold')]}"/>
+                </xpath>
+                <!-- Thêm các trường vào trang thứ 3 trong notebook -->
+                <xpath expr="//notebook/page[3]/group" position="inside">
+                    <!-- Thêm trường buyer_mail -->
+                    <field name="buyer_mail"/>
+                    <!-- Thêm trường user_sold -->
+                    <field name="user_sold"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

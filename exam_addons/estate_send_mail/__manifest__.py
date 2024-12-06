@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+{
+  'name': 'Real Estate Send Mail',
+  'version': '1.0.0.0.0',
+  'category': 'Test',
+  'author': 'Nguyen Ngoc Tam',
+  'website': "https://bap.bemo-cloud.com/",
+  'company': 'BAP Solutions',
+  'maintainer': 'BAP Solutions',
+  'summary': 'Test',
+  "description": """Try to test""",
+  'depends': ['base','estate','mail'],
+  'data': [
+    'views/view_estate_property_form_inherit.xml',
+    'data/email_templates.xml',
+    'demo/mail_server.xml',
+  ],
+  'demo': [],
+  'qweb': [],
+  "license": "AGPL-3",
+  'installable': True,
+  'auto_install': False,
+  'application': True,
+  'post_init_hook': 'post_init_hook',
+}

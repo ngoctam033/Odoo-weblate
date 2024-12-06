@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Demo data for student.student -->
+        <record model="student.student">
+            <field name="name">John Doe</field>
+            <field name="age">20</field>
+            <field name="gender">male</field>
+            <field name="student_dob">2002-01-01</field>
+            <field name="student_blood_group">O+ve</field>
+        </record>
+        <record model="student.student">
+            <field name="name">Jane Smith</field>
+            <field name="age">22</field>
+            <field name="gender">female</field>
+            <field name="student_dob">2000-05-15</field>
+            <field name="student_blood_group">A+ve</field>
+        </record>
+        <record model="student.student">
+            <field name="name">Alex Johnson</field>
+            <field name="age">21</field>
+            <field name="gender">others</field>
+            <field name="student_dob">2001-03-22</field>
+            <field name="student_blood_group">B+ve</field>
+        </record>
+        <record model="student.student">
+            <field name="name">Emily Davis</field>
+            <field name="age">19</field>
+            <field name="gender">female</field>
+            <field name="student_dob">2003-07-11</field>
+            <field name="student_blood_group">AB+ve</field>
+        </record>
+    </data>
+</odoo>

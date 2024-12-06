@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="email_template_estate_property" model="mail.template">
+        <field name="name">Estate Property Sold Email</field>
+        <field name="model_id" ref="estate.model_estate_property"/>
+        <field name="subject">Property ${object.name} Sold!</field>
+        <field name="email_from">${(user.email or '')|safe}</field>
+        <field name="email_to">${(object.buyer_mail or '')|safe}</field>
+        <field name="auto_delete">False</field>
+        <field name="body_html">
+            <![CDATA[
+                <p>Dear ${object.buyer_id.name},</p>
+                <p>The property ${object.name} you bought is sold successfully by ${object.user_sold.name}.</p>
+                <p>Thanks,</p>
+                <p>${user.name}</p>
+            ]]>
+        </field>
+    </record>
+
+    <record id="email_template_estate_property_offer" model="mail.template">
+        <field name="name">Estate Property Offer Email</field>
+        <field name="model_id" ref="estate.model_estate_property_offer"/>
+        <field name="subject">Property Offer for ${object.property_id.name} Accepted!</field>
+        <field name="email_from">${(user.email or '')|safe}</field>
+        <field name="email_to">${(object.partner_id.email or '')|safe}</field>
+        <field name="auto_delete">False</field>
+        <field name="body_html">
+            <![CDATA[
+                <p>Dear ${object.partner_id.name},</p>
+                <p>The offer for the property ${object.property_id.name} you made has been accepted by ${object.user_accept.name}.</p>
+                <p>Thanks,</p>
+                <p>${user.name}</p>
+            ]]>
+        </field>
+    </record>
+</odoo>
