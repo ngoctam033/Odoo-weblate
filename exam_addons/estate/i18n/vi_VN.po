@@ -17,78 +17,62 @@ msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid ""
-"<br/>\n"
-"                                        <strong>Giá:</strong>"
+msgid "Giá:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid ""
-"<br/>\n"
-"                                        <strong>Trạng Thái:</strong>"
+msgid "Trạng Thái:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
-msgid ""
-"<br/>\n"
-"                                    <strong>Bedrooms:</strong>"
+msgid "Bedrooms:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
-msgid ""
-"<br/>\n"
-"                                    <strong>Garden Area:</strong>"
+msgid "Garden Area:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
-msgid ""
-"<br/>\n"
-"                                    <strong>Living Area:</strong>"
+msgid "Area:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
-msgid ""
-"<br/>\n"
-"                                    <strong>Status:</strong>"
+msgid "Status:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "<option value=\"\">Tất cả trạng thái</option>"
+msgid "Tất cả trạng thái"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid ""
-"<span aria-hidden=\"true\">‹</span> \n"
-"                                        Trang trước"
+msgid "Trang trước"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid ""
-"<span aria-hidden=\"true\">›</span> \n"
-"                                        Trang sau"
+msgid "Trang sau"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
-msgid "<strong>Code:</strong>"
+msgid "Code:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
-msgid "<strong>Description:</strong>"
+msgid "Description:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid "<strong>Mã:</strong>"
+msgid "Mã:"
 msgstr ""
 
 #. module: estate
@@ -1035,9 +1019,7 @@ msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
-msgid ""
-"Trang cuối\n"
-"                                        <span aria-hidden=\"true\">»</span>"
+msgid "Trang cuối"
 msgstr ""
 
 #. module: estate
@@ -1124,16 +1106,12 @@ msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
-msgid ""
-"m²<br/>\n"
-"                                    <strong>Garden Orientation:</strong>"
+msgid "Garden Orientation:"
 msgstr ""
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
-msgid ""
-"m²<br/>\n"
-"                                    <strong>Garden:</strong>"
+msgid "Garden:"
 msgstr ""
 
 #. module: estate
