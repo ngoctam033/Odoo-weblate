@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-06 07:39+0000\n"
-"PO-Revision-Date: 2024-12-06 09:18+0000\n"
+"PO-Revision-Date: 2024-12-06 09:27+0000\n"
 "Last-Translator: Nguyen Ngoc Tam <nguyenngoctam0332003@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/"
 "odoo_weblate_ngoctam/odoo_weblate_ngoctam/vi/>\n"
@@ -31,7 +31,7 @@ msgstr "Diện tích vườn:"
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
 msgid "Area:"
-msgstr ""
+msgstr "Diện tích:"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_detail_template
@@ -135,7 +135,7 @@ msgstr "Có sẵn từ"
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_kanban
 msgid "Available From:"
-msgstr ""
+msgstr "Có sẵn từ:"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__bedrooms
@@ -390,7 +390,7 @@ msgstr ""
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__expected_price
 msgid "Expected Price"
-msgstr ""
+msgstr "Giá dự kiến"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_kanban
@@ -405,7 +405,7 @@ msgstr "Mặt tiền"
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
 msgid "First"
-msgstr ""
+msgstr "Đầu tiên"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__message_follower_ids
@@ -620,7 +620,7 @@ msgstr ""
 #: code:addons/estate/models/estate_cancel_wizard.py:0
 #, python-format
 msgid "No active property record found to cancel."
-msgstr ""
+msgstr "Không tìm thấy BDS nào để hủy."
 
 #. module: estate
 #: model:ir.model.fields.selection,name:estate.selection__estate_property__garden_orientation__north
@@ -716,7 +716,7 @@ msgstr "Mã Bưu điện"
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
 msgid "Previous"
-msgstr ""
+msgstr "Trở về trước"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property_offer__price
@@ -742,7 +742,7 @@ msgstr "BDS đã được chấp nhận"
 #: model:ir.model,name:estate.model_property_buyer_report
 #: model_terms:ir.ui.view,arch_db:estate.view_property_buyer_report_tree
 msgid "Property Buyer Report"
-msgstr ""
+msgstr "Báo cáo"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_property_buyer_report__total_cancelled_properties
@@ -758,29 +758,29 @@ msgstr "Hình ảnh"
 #: model:ir.ui.menu,name:estate.menu_estate_property_offer
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_property_offer_form
 msgid "Property Offer"
-msgstr ""
+msgstr "Các Đề nghị"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_property_offer_tree
 msgid "Property Offers"
-msgstr ""
+msgstr "Các đề nghị"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_property_buyer_report__total_sold_properties
 msgid "Property Sold"
-msgstr ""
+msgstr "BDS đã bán"
 
 #. module: estate
 #: model:ir.ui.menu,name:estate.menu_estate_property_tag
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_property_tag_form
 msgid "Property Tag"
-msgstr ""
+msgstr "Nhãn BDS"
 
 #. module: estate
 #: model:ir.actions.act_window,name:estate.action_estate_tag
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_property_tag_tree
 msgid "Property Tags"
-msgstr ""
+msgstr "Nhãn BDS"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__property_type_id
@@ -788,17 +788,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:estate.field_estate_property_type__name
 #: model:ir.ui.menu,name:estate.menu_estate_property_type
 msgid "Property Type"
-msgstr ""
+msgstr "Loại BDS"
 
 #. module: estate
 #: model:ir.model,name:estate.model_estate_property
 msgid "Real Estate Property"
-msgstr ""
+msgstr "Bất động sản"
 
 #. module: estate
 #: model:ir.model,name:estate.model_estate_property_offer
 msgid "Real Estate Property Offer"
-msgstr ""
+msgstr "Đề nghị mua BDS"
 
 #. module: estate
 #: model:ir.model,name:estate.model_estate_property_tag
@@ -813,7 +813,7 @@ msgstr ""
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__reason_cancel
 msgid "Reason for Cancellation"
-msgstr ""
+msgstr "Lý do hủy"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_form
