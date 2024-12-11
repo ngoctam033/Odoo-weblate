@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-06 07:39+0000\n"
-"PO-Revision-Date: 2024-12-09 02:16+0000\n"
+"PO-Revision-Date: 2024-12-11 02:36+0000\n"
 "Last-Translator: Nguyen Ngoc Tam <nguyenngoctam0332003@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/"
 "odoo_weblate_ngoctam/odoo_weblate_ngoctam/vi/>\n"
@@ -84,7 +84,7 @@ msgstr "Đề nghị đã được chấp nhận"
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Hành động cần thiết"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__active
@@ -99,7 +99,7 @@ msgstr "Hoạt động"
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Xử lý ngoại lệ hoạt động bằng trang trí"
 
 #. module: estate
 #: model:ir.model.fields,field_description:estate.field_estate_property__activity_state
@@ -216,7 +216,7 @@ msgstr "Không thể thay đổi trang thái từ \"Đồng ý\" thành \"Từ c
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.property_list_template
 msgid "Chi Tiết"
-msgstr ""
+msgstr "Chi tiết"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.view_estate_cancel_wizard_form
@@ -340,7 +340,7 @@ msgstr "Bất động sản"
 #. module: estate
 #: model:ir.model,name:estate.model_estate_cancel_wizard
 msgid "Estate Cancel Wizard"
-msgstr ""
+msgstr "Form hủy Bất động sản"
 
 #. module: estate
 #: model:res.groups,name:estate.estate_admin
@@ -350,17 +350,17 @@ msgstr "Quản lý bất động sản"
 #. module: estate
 #: model:ir.actions.act_window,name:estate.action_estate_kanban
 msgid "Estate Properties (Kanban)"
-msgstr ""
+msgstr "Bất động sản (Kaban View)"
 
 #. module: estate
 #: model:ir.actions.act_window,name:estate.action_estate_tree
 msgid "Estate Properties (Tree)"
-msgstr ""
+msgstr "Bất động sản (dạng danh sách)"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_form
 msgid "Estate Property Form"
-msgstr ""
+msgstr "Biểu mẫu bất động sản"
 
 #. module: estate
 #: model_terms:ir.ui.view,arch_db:estate.estate_view_kanban
